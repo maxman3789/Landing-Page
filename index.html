@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1><a href="index.html">Landing Page</a></h1>
+            <div id="index">
+                <ul>
+                    <li>
+                        <a href="#index">Home</a>
+                    </li>
+                    <li>
+                        <a href="#aboutus">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <article>
+    <div class="content">
+        <table>
+            <tr id="aboutus">
+                <td><img src="11210941-colleagues-in-business-meeting.jpg" alt="landing page" class="meeting" /></td>
+            </tr>
+            <tr>
+                <td><h2 style="text-align: center;">Welcome To Our Site</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align: center;">Fill ou the contact form to get ahold of us.</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="contact">
+                    <form action="/action_page.php" style="width: 50%; margin-left: 25%;">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="lname">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="Email..">
+                    
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                        </select>
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                      </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </article>
+
+    <footer>
+        <div class="footer">
+            <h3>Thank you for your business. We'll speak soon.</h3>
+        </div>
+    </footer>
+</body>
+</html>
